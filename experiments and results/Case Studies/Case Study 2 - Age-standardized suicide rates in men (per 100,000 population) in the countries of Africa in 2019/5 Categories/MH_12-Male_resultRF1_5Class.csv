@@ -1,0 +1,47 @@
+;Actual Value;Prediction;countryName;regionName;year
+624;1.0;1;Comoros;Africa;2019
+664;1.0;1;Algeria;Africa;2019
+704;1.0;1;Ethiopia;Africa;2019
+784;1.0;1;Gambia;Africa;2019
+864;1.0;1;Liberia;Africa;2019
+904;1.0;1;Madagascar;Africa;2019
+924;1.0;1;Mali;Africa;2019
+964;1.0;1;Mauritania;Africa;2019
+984;1.0;1;Mauritius;Africa;2019
+1044;1.0;1;Niger;Africa;2019
+1064;1.0;1;Nigeria;Africa;2019
+1084;1.0;1;Rwanda;Africa;2019
+1124;1.0;1;Sierra Leone;Africa;2019
+1144;1.0;1;South Sudan;Africa;2019
+1164;1.0;1;Sao Tome and Principe;Africa;2019
+1204;1.0;1;Seychelles;Africa;2019
+1264;1.0;1;United Republic of Tanzania;Africa;2019
+424;2.0;2;Angola;Africa;2019
+444;2.0;2;Burundi;Africa;2019
+464;2.0;2;Benin;Africa;2019
+484;2.0;2;Burkina Faso;Africa;2019
+544;2.0;2;Côte d'Ivoire;Africa;2019
+564;2.0;2;Cameroon;Africa;2019
+584;2.0;2;Democratic Republic of the Congo;Africa;2019
+604;2.0;2;Congo;Africa;2019
+644;2.0;2;Cabo Verde;Africa;2019
+684;2.0;2;Eritrea;Africa;2019
+724;2.0;2;Gabon;Africa;2019
+744;2.0;2;Ghana;Africa;2019
+764;2.0;2;Guinea;Africa;2019
+804;2.0;2;Guinea-Bissau;Africa;2019
+824;2.0;2;Equatorial Guinea;Africa;2019
+844;2.0;2;Kenya;Africa;2019
+1004;2.0;2;Malawi;Africa;2019
+1024;2.0;2;Namibia;Africa;2019
+1104;2.0;2;Senegal;Africa;2019
+1224;2.0;2;Chad;Africa;2019
+1244;2.0;2;Togo;Africa;2019
+1284;2.0;2;Uganda;Africa;2019
+1324;2.0;2;Zambia;Africa;2019
+504;3.0;3;Botswana;Africa;2019
+524;3.0;3;Central African Republic;Africa;2019
+944;3.0;3;Mozambique;Africa;2019
+1304;3.0;3;South Africa;Africa;2019
+1344;3.0;3;Zimbabwe;Africa;2019
+1184;5.0;5;Eswatini;Africa;2019

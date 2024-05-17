@@ -1,0 +1,21 @@
+;Actual Value;Prediction;countryName;regionName;year
+3138;1.0;1;Japan;Western Pacific;2019
+3178;1.0;1;Kiribati;Western Pacific;2019
+3338;1.0;1;Singapore;Western Pacific;2019
+3038;2.0;2;Australia;Western Pacific;2019
+3058;2.0;2;Brunei Darussalam;Western Pacific;2019
+3198;2.0;3;Republic of Korea;Western Pacific;2019
+3278;3.0;3;New Zealand;Western Pacific;2019
+3298;3.0;3;Philippines;Western Pacific;2019
+3318;3.0;3;Papua New Guinea;Western Pacific;2019
+3438;3.0;3;Samoa;Western Pacific;2019
+3098;4.0;4;Fiji;Western Pacific;2019
+3358;4.0;4;Solomon Islands;Western Pacific;2019
+3418;4.0;4;Vanuatu;Western Pacific;2019
+3078;5.0;5;China;Western Pacific;2019
+3158;5.0;5;Cambodia;Western Pacific;2019
+3218;5.0;5;Lao People's Democratic Republic;Western Pacific;2019
+3238;5.0;5;Mongolia;Western Pacific;2019
+3258;6.0;6;Malaysia;Western Pacific;2019
+3378;8.0;8;Tonga;Western Pacific;2019
+3398;8.0;8;Viet Nam;Western Pacific;2019

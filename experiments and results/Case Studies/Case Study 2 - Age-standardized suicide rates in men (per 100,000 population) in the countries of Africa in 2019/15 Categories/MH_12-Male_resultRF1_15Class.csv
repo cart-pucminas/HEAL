@@ -1,0 +1,47 @@
+;Actual Value;Prediction;countryName;regionName;year
+664;1.0;1;Algeria;Africa;2019
+1164;1.0;1;Sao Tome and Principe;Africa;2019
+864;2.0;2;Liberia;Africa;2019
+924;2.0;2;Mali;Africa;2019
+964;2.0;2;Mauritania;Africa;2019
+1064;2.0;2;Nigeria;Africa;2019
+1144;2.0;2;South Sudan;Africa;2019
+624;3.0;3;Comoros;Africa;2019
+704;3.0;3;Ethiopia;Africa;2019
+784;3.0;3;Gambia;Africa;2019
+904;3.0;3;Madagascar;Africa;2019
+984;3.0;3;Mauritius;Africa;2019
+1044;3.0;3;Niger;Africa;2019
+1084;3.0;3;Rwanda;Africa;2019
+1124;3.0;3;Sierra Leone;Africa;2019
+1204;3.0;3;Seychelles;Africa;2019
+1264;3.0;3;United Republic of Tanzania;Africa;2019
+444;4.0;4;Burundi;Africa;2019
+464;4.0;4;Benin;Africa;2019
+584;4.0;4;Democratic Republic of the Congo;Africa;2019
+604;4.0;4;Congo;Africa;2019
+744;4.0;4;Ghana;Africa;2019
+764;4.0;4;Guinea;Africa;2019
+804;4.0;4;Guinea-Bissau;Africa;2019
+824;4.0;4;Equatorial Guinea;Africa;2019
+844;4.0;4;Kenya;Africa;2019
+1004;4.0;4;Malawi;Africa;2019
+1104;4.0;4;Senegal;Africa;2019
+1224;4.0;4;Chad;Africa;2019
+1284;4.0;4;Uganda;Africa;2019
+424;5.0;5;Angola;Africa;2019
+484;5.0;5;Burkina Faso;Africa;2019
+544;5.0;5;Côte d'Ivoire;Africa;2019
+564;5.0;5;Cameroon;Africa;2019
+724;5.0;5;Gabon;Africa;2019
+1024;5.0;5;Namibia;Africa;2019
+1244;5.0;5;Togo;Africa;2019
+1324;5.0;5;Zambia;Africa;2019
+644;6.0;6;Cabo Verde;Africa;2019
+684;6.0;6;Eritrea;Africa;2019
+504;7.0;7;Botswana;Africa;2019
+524;8.0;8;Central African Republic;Africa;2019
+1304;8.0;8;South Africa;Africa;2019
+1344;8.0;8;Zimbabwe;Africa;2019
+944;9.0;9;Mozambique;Africa;2019
+1184;15.0;14;Eswatini;Africa;2019

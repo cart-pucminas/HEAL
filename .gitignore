@@ -1,7 +1,7 @@
 *.bat
 *.pyc
 *.env
-*.csv
+# *.csv
 /bases
 .vscode
 .DS_Store
