@@ -1,0 +1,8 @@
+*.bat
+*.pyc
+*.env
+*.csv
+/bases
+.vscode
+.DS_Store
+.idea

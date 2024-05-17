@@ -1,0 +1,49 @@
+
+version: 1.0
+
+Before using the system, please read all information below
+
+TEST ENVIRONMENT:
+
+    - Ubuntu version: Ubuntu 22.04.1 LTS
+    - postgresql version: psql (PostgreSQL) 14.5 
+    - python version: Python 3.10.6
+    - Intel® Core™ i5-9400F CPU @ 2.90GHz × 6 - 16,0 GiB
+
+    To execute this application, you need to install (use pip to install):
+    - panda
+    - pandas
+    - psycopg2
+    - info_gain
+    - tensorflow
+    - requests
+    - scipy
+    - sklearn
+    - scikit-learn
+
+
+
+IMPORTANT: 
+
+Database documentation: documentation/database/database.sql
+
+Before using the system, please configure the parameters in:
+- ConfigCreateDatabase.py (to create the database)
+- ConfigPrediction.py (to predict some indicator)
+
+Attention: to predict some indicator, you need to create the database before
+
+
+
+HOW TO EXECUTE:
+
+Database creation:
+    1 - Configure the parameters in ConfigCreateDatabase.py
+    2 - Run ApplicationCreateDatabase.py
+
+Prediction:
+    1 - Configure the parameters in ConfigPrediction.py
+    2 - Run ApplicationPrediction.py
+
+
+3 - All results can be found in the results folder
