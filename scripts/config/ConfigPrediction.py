@@ -7,12 +7,7 @@ class Config:
         # PREDICTION INDICATOR CONFIG
         # Choose the indicator to forecast (only one for each execution)
         # see the options in https://ghoapi.azureedge.net/api/Indicator
-        # use only the "IndicatorCode", for instance: self.codePredictionIndicator = 'NUTRITION_ANAEMIA_CHILDREN_PRE'
-        # self.codePredictionIndicator = 'Number of deaths due to HIV/AIDS'
-        # self.codePredictionIndicator = 'Prevalence of anaemia in children aged 6–59 months (%)'
-        # self.codePredictionIndicator = 'MH_12-Male'
-        self.codePredictionIndicator = "Hemoglobinopathies and hemolytic anemias|Both|<5 years"
-        # self.codePredictionIndicator = "Dietary iron deficiency|Both|<5 years"
+        self.codePredictionIndicator = "WSH_10"
 
 
         
@@ -30,11 +25,11 @@ class Config:
         # SERÁ ACRESCENTADO ->
         # 0 para não usar
         # TO NOT USE PREDICTION INDICATOR YEAR AND PREDICTION INDICATOR REGION, use:
-        # self.predictionIndicatorYear = 0
-        # self.predictionIndicatorRegion= 0
+        self.predictionIndicatorYear = 0
+        self.predictionIndicatorRegion= 0
         # When not used, the system will process data from the world (world countries context)
-        self.predictionIndicatorYear = 2019
-        self.predictionIndicatorRegion= 'Asia'
+        # self.predictionIndicatorYear = 2019
+        # self.predictionIndicatorRegion= 'Asia'
 
 
         # INDICATOR DIMENSIONS CONFIG
@@ -49,7 +44,7 @@ class Config:
         self.minInformationGain = 2
 
         # TOTAL INDICATORS USE TO PREDICTION CONFIG
-        self.totalIndicatorsUseToPrediction = 25
+        self.totalIndicatorsUseToPrediction = 20
 
 
 
@@ -57,18 +52,11 @@ class Config:
         # if list null, all indicators will be consider
         # see the options in https://ghoapi.azureedge.net/api/Indicator
         # use only the "IndicatorCode", for instance: self.INDICATORS = ['HEMOGLOBINLEVEL_PREGNANT_MEAN', 'HEMOGLOBINLEVEL_NONPREGNANT_ME', 'AIR_11'] 
-        # self.indicatorsAnalyzingCode = ['HEMOGLOBINLEVEL_PREGNANT_MEAN',
-                                        # 'HEMOGLOBINLEVEL_NONPREGNANT_ME', 
-                                        # 'AIR_11']
         self.indicatorsAnalyzingCode = []
 
         # TOTAL GROUPS FOR CATEGORIZATION CONFIG
-        # I need to integrate that in the final projetct
-        # self.groupsCategorization = 5
-        # self.groupsCategorization = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
-        self.groupsCategorization = [106]
-        # options = regressor or classification
-        self.typeML = "regressor"
+        self.groupsCategorization = 5
+        self.typeML = "classification"
 
         # OUTLIERS CONFIG
         # Q1 and Q3 Outliers parameters

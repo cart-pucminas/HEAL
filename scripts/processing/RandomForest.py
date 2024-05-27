@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from random import randint
 import pandas as pd
-from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
+from sklearn.ensemble import RandomForestClassifier
 
 from sklearn import metrics
 
@@ -46,7 +46,7 @@ def RandomForestByRegionYear(dataset, output, predictionIndicatorYear, predictio
 
       print(train_features)
       print(train_labels)
-      # train_features, train_labels = OversamplingUndersampling.oversampling(train_features, train_labels)
+      train_features, train_labels = OversamplingUndersampling.oversampling(train_features, train_labels)
       print(train_features)
       print(train_labels)
       
@@ -54,8 +54,7 @@ def RandomForestByRegionYear(dataset, output, predictionIndicatorYear, predictio
             return ((x - train_stats['mean']) / train_stats['std'])
       train_features = norm(train_features)
       test_features = norm(test_features)
-      # rf = RandomForestClassifier(random_state = 42)
-      rf = RandomForestRegressor(random_state = 42)
+      rf = RandomForestClassifier(random_state = 42)
       
       space = dict()
       space['n_estimators'] = [100, 110, 120]
@@ -94,7 +93,7 @@ def RandomForest(dataset, output):
 
       print(train_features)
       print(train_labels)
-      # train_features, train_labels = OversamplingUndersampling.oversampling(train_features, train_labels)
+      train_features, train_labels = OversamplingUndersampling.oversampling(train_features, train_labels)
       print(train_features)
       print(train_labels)
 
@@ -106,8 +105,7 @@ def RandomForest(dataset, output):
       
       train_features = norm(train_features)
       test_features = norm(test_features)
-      # rf = RandomForestClassifier(random_state = 42)
-      rf = RandomForestRegressor()
+      rf = RandomForestClassifier(random_state = 42)
       
       space = dict()
       space['n_estimators'] = [100]

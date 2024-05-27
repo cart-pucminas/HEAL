@@ -137,7 +137,7 @@ def main():
     
     datasToSendToPrediction, outliers = Outliers.outliers(datasToSendToPrediction, config.outlierQparameter[0], config.outlierQparameter[1], 'percent')
     outliers.to_csv('../results/' + codePredictionIndicator.replace('/', '') + '_outliers.csv' , sep=';',  encoding='utf-8')
-    resultDatabase = Utils.createGroups(datasToSendToPrediction)
+    resultDatabase = Utils.createGroups(datasToSendToPrediction, categories)
     resultDatabase = resultDatabase.drop(['percent'], axis=1)
     resultDatabase = resultDatabase.drop([codePredictionIndicator], axis=1)
     resultDatabase = resultDatabase.drop(['POP'], axis=1)
@@ -164,7 +164,7 @@ def main():
     print("-> The Confusion Matrix Result: ")
     print(confusionMatrix)
     confusionMatrix.to_csv('../results/ANN_' + codePredictionIndicator + '_confusionMatrix_'+str(categories)+'Class.csv' , sep=';',  encoding='utf-8')
-    listResults.append(['RF', "Test"+str(i), accuracy, RMSE, MSE, MAE, MAPE, KGE, precision, recall, f1])
+    listResults.append(['ANN', "Test", accuracy, RMSE, MSE, MAE, MAPE, KGE, precision, recall, f1])
 
     # for i in range(1, 6, 1):
     result = RandomForest.main(resultDatabase, codePredictionIndicator, predictionIndicatorYear, predictionIndicatorRegion)
@@ -175,7 +175,7 @@ def main():
     print("-> The Confusion Matrix Result: ")
     print(confusionMatrix)
     confusionMatrix.to_csv('../results/RandomForest_' + codePredictionIndicator + '_confusionMatrix_'+str(categories)+'Class.csv' , sep=';',  encoding='utf-8')
-    listResults.append(['RF', "Test"+str(i), accuracy, RMSE, MSE, MAE, MAPE, KGE, precision, recall, f1])
+    listResults.append(['RF', "Test", accuracy, RMSE, MSE, MAE, MAPE, KGE, precision, recall, f1])
 
     result = pd.DataFrame(listResults, columns=['Algorithm', 'Test', 'Accuracy', 'RMSE', 'MSE', 'MAE', 'MAPE', 'KGE', 'precision', 'recall', 'f1'])
     print("Final Result: ")

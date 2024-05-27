@@ -10,7 +10,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from utils import OversamplingUndersampling
 
-from scikeras.wrappers import KerasClassifier, KerasRegressor
+from scikeras.wrappers import KerasClassifier
 
 from sklearn.model_selection import GridSearchCV
 
@@ -134,7 +134,7 @@ def ANNByRegionYear(dataset, output, predictionIndicatorYear, predictionIndicato
       train_features = norm(train_dataset)
       test_features = norm(test_dataset)
 
-      model = KerasRegressor(model=build_model(train_features))
+      model = KerasClassifier(model=build_model(train_features))
       
       space = dict()
       space['epochs'] = [10, 50, 100]
