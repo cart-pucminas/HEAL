@@ -1,7 +1,7 @@
 # HEAL
 
-HEAL: Highly Effective Automated Machine Learning with Large Language Model for Multiclass Classification Problems
+HEAL: HEalthcare Automated Learning
 
-This work proposes a AutoML pipeline called HEAL (Highly Effective Automated Machine Learning with Large Language Model for Multiclass Classification Problems) to automate all steps of the AutoML pipeline.
+This work proposes an AutoML framework called HEAL (HEalthcare Automated Learning) designed to support multiclass classification problems using panel data structures.
 
 visit the HEAL website: https://heal-74da4.web.app/
